@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  background-color: #eee;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+}
+
+input {
+  border: 1px solid silver;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+form button {
+  border: 2px solid currentColor;
+  border-radius: .25em;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.4em;
+  padding: 0.25em 1em;
+  max-width: 20ch;
+}
+
+form button:hover {
+  color: white;
+  background-color: gray;
+}
+
+#formulario {
+  position: absolute;
+  z-index: 10000;
+}
